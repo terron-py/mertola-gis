@@ -40,7 +40,7 @@ st.markdown(
 
 #st.markdown(markdown)
 
-m = leafmap.Map(center=[37.64, -7.65], zoom=10.5, height=600, widescreen=False)
+m = leafmap.Map(center=[37.64, -7.65], zoom=10.5)
 m = leafmap.Map(minimap_control=True)
 m.add_basemap("OpenTopoMap")
 m.to_streamlit(height=500)
