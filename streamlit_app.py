@@ -11,11 +11,11 @@ st.sidebar.info(
     """
 )
 
-st.sidebar.title("Contact")
+st.sidebar.title("Contacto")
 st.sidebar.info(
     """
-    Qiusheng Wu: <https://wetlands.io>
-    [GitHub](https://github.com/giswqs) | [Twitter](https://twitter.com/giswqs) | [YouTube](https://www.youtube.com/c/QiushengWu) | [LinkedIn](https://www.linkedin.com/in/qiushengwu)
+    André Sanches: <https://wetlands.io>
+    [GitHub](https://github.com/terron-py) | [LinkedIn](https://www.linkedin.com/in/andre-sanches/)
     """
 )
 
