@@ -14,7 +14,7 @@ st.sidebar.info(
 st.sidebar.title("Contacto")
 st.sidebar.info(
     """
-    André Sanches: <https://wetlands.io>
+    André Sanches
     [GitHub](https://github.com/terron-py) | [LinkedIn](https://www.linkedin.com/in/andre-sanches/)
     """
 )
