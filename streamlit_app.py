@@ -46,4 +46,5 @@ st.markdown(
 #m.to_streamlit(height=500)
 
 m = geemap.Map(center=(40, -100), zoom=4)
+m.split_map(left_layer='HYBRID', right_layer='ROADMAP')
 m
