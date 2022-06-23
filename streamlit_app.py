@@ -1,6 +1,5 @@
 import streamlit as st
 import leafmap.foliumap as leafmap
-import geemap
 
 st.set_page_config(layout="wide")
 
@@ -41,10 +40,8 @@ st.markdown(
 
 #st.markdown(markdown)
 
-#m = leafmap.Map(minimap_control=True)
-#m.add_basemap("OpenTopoMap")
-#m.to_streamlit(height=500)
+m = leafmap.Map(minimap_control=True)
+m.add_basemap("OpenTopoMap")
+m.to_streamlit(height=500)
 
-m = geemap.Map(center=(40, -100), zoom=4)
-m.split_map(left_layer='HYBRID', right_layer='ROADMAP')
-m
+
