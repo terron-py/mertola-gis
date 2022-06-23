@@ -3,11 +3,11 @@ import leafmap.foliumap as leafmap
 
 st.set_page_config(layout="wide")
 
-st.sidebar.title("About")
+st.sidebar.title("Sobre")
 st.sidebar.info(
     """
-    Web App URL: <https://geospatial.streamlitapp.com>
-    GitHub repository: <https://github.com/giswqs/streamlit-geospatial>
+    Web App URL: <https://terron-py-mertola-gis-streamlit-app-l6gxrw.streamlitapp.com/>
+    GitHub repository: <https://github.com/terron-py/mertola-gis>
     """
 )
 
